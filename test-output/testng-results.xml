@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-29T08:57:53 BST" name="Default suite" finished-at="2021-07-29T08:57:53 BST" duration-ms="411">
+  <suite started-at="2021-07-29T09:06:38 BST" name="Default suite" finished-at="2021-07-29T09:06:38 BST" duration-ms="397">
     <groups>
     </groups>
-    <test started-at="2021-07-29T08:57:53 BST" name="Default test" finished-at="2021-07-29T08:57:53 BST" duration-ms="411">
+    <test started-at="2021-07-29T09:06:38 BST" name="Default test" finished-at="2021-07-29T09:06:38 BST" duration-ms="397">
       <class name="pojoDemo.PojoSerializationDeserialization">
-        <test-method signature="serializeEmployee()[pri:1, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:57:53 BST" name="serializeEmployee" finished-at="2021-07-29T08:57:53 BST" duration-ms="312" status="PASS">
+        <test-method signature="serializeEmployee()[pri:1, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T09:06:38 BST" name="serializeEmployee" finished-at="2021-07-29T09:06:38 BST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serializeEmployee -->
-        <test-method signature="deserializeEmployee()[pri:2, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:57:53 BST" name="deserializeEmployee" finished-at="2021-07-29T08:57:53 BST" duration-ms="43" status="PASS">
+        <test-method signature="deserializeEmployee()[pri:2, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T09:06:38 BST" name="deserializeEmployee" finished-at="2021-07-29T09:06:38 BST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deserializeEmployee -->

@@ -14,7 +14,7 @@ public class PojoSerializationDeserialization {
 	  Employee employee = new Employee();
 	  employee.setFirstName("Harry");
 	  employee.setLastName("Potter");
-	  employee.setAge(18);
+	  employee.setAge(25);
 	  employee.setSalary(60000.0);
 	  
 	  // converting java class object to  JSON payload as String
@@ -29,7 +29,7 @@ public class PojoSerializationDeserialization {
 	  Employee employee = new Employee();
 	  employee.setFirstName("Ron");
 	  employee.setLastName("Weasely");
-	  employee.setAge(19);
+	  employee.setAge(26);
 	  employee.setSalary(50000.0);
 	  
 	  // converting java class object to  JSON payload as String
@@ -39,10 +39,10 @@ public class PojoSerializationDeserialization {
 	  
 	  //converting JSON payload to Java object
 	  Employee empObject = objectmapper.readValue(empData, Employee.class);
-	  System.out.println(empObject.getFirstName());
-	  System.out.println(empObject.getLastName());
-	  System.out.println(empObject.getAge());
-	  System.out.println(empObject.getSalary());
+	  System.out.println("Firstname: " + empObject.getFirstName());
+	  System.out.println("Lastname: " + empObject.getLastName());
+	  System.out.println("Age: " + empObject.getAge());
+	  System.out.println("salary: " + empObject.getSalary());
 	  
 	  
   }

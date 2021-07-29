@@ -1,2 +1,2 @@
 # GitApiDemo
-Code for POJO serialization and deserialization for API testing
+Java code: POJO serialization and deserialization for API testing

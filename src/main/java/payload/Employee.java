@@ -1,4 +1,4 @@
-package pojo;
+package payload;
 
 public class Employee {
 	//declare data fields

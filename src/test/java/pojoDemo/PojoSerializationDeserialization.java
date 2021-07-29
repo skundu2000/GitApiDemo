@@ -1,9 +1,11 @@
-package pojo;
+package pojoDemo;
 
 import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import payload.Employee;
 
 public class PojoSerializationDeserialization {
   @Test(priority =1)
@@ -13,7 +15,7 @@ public class PojoSerializationDeserialization {
 	  employee.setFirstName("Harry");
 	  employee.setLastName("Potter");
 	  employee.setAge(18);
-	  employee.setSalary(50000.0);
+	  employee.setSalary(60000.0);
 	  
 	  // converting java class object to  JSON payload as String
 	  ObjectMapper objectmapper = new ObjectMapper();
@@ -28,11 +30,12 @@ public class PojoSerializationDeserialization {
 	  employee.setFirstName("Ron");
 	  employee.setLastName("Weasely");
 	  employee.setAge(19);
-	  employee.setSalary(40000.0);
+	  employee.setSalary(50000.0);
 	  
 	  // converting java class object to  JSON payload as String
 	  ObjectMapper objectmapper = new ObjectMapper();
 	  String empData = objectmapper.writerWithDefaultPrettyPrinter().writeValueAsString(employee);
+	  System.out.println(empData);
 	  
 	  //converting JSON payload to Java object
 	  Employee empObject = objectmapper.readValue(empData, Employee.class);

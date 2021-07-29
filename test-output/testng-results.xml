@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-29T08:36:30 BST" name="Default suite" finished-at="2021-07-29T08:36:31 BST" duration-ms="678">
+  <suite started-at="2021-07-29T08:57:53 BST" name="Default suite" finished-at="2021-07-29T08:57:53 BST" duration-ms="411">
     <groups>
     </groups>
-    <test started-at="2021-07-29T08:36:30 BST" name="Default test" finished-at="2021-07-29T08:36:31 BST" duration-ms="678">
-      <class name="pojo.PojoSerializationDeserialization">
-        <test-method signature="serializeEmployee()[pri:1, instance:pojo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:36:30 BST" name="serializeEmployee" finished-at="2021-07-29T08:36:31 BST" duration-ms="484" status="PASS">
+    <test started-at="2021-07-29T08:57:53 BST" name="Default test" finished-at="2021-07-29T08:57:53 BST" duration-ms="411">
+      <class name="pojoDemo.PojoSerializationDeserialization">
+        <test-method signature="serializeEmployee()[pri:1, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:57:53 BST" name="serializeEmployee" finished-at="2021-07-29T08:57:53 BST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serializeEmployee -->
-        <test-method signature="deserializeEmployee()[pri:2, instance:pojo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:36:31 BST" name="deserializeEmployee" finished-at="2021-07-29T08:36:31 BST" duration-ms="108" status="PASS">
+        <test-method signature="deserializeEmployee()[pri:2, instance:pojoDemo.PojoSerializationDeserialization@732c2a62]" started-at="2021-07-29T08:57:53 BST" name="deserializeEmployee" finished-at="2021-07-29T08:57:53 BST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deserializeEmployee -->
-      </class> <!-- pojo.PojoSerializationDeserialization -->
+      </class> <!-- pojoDemo.PojoSerializationDeserialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
